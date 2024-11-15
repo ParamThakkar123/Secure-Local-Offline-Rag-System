@@ -65,4 +65,10 @@ Download Ollama app and run it
 > python -m streamlit run app.py
 ```
 
+### Screenshots
+![image](https://github.com/user-attachments/assets/b355ea9c-dfe4-4250-bf86-fc38c4da655a)
+
+![image](https://github.com/user-attachments/assets/79edc3ce-1f9e-420b-a406-f0860ca52c47)
+
+![image](https://github.com/user-attachments/assets/5a096154-be22-44aa-9501-94e9f3f1a19b)
 
