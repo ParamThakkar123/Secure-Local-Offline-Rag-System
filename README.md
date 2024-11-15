@@ -1,14 +1,21 @@
-# Secure Offline RAG system
+# 🛡️ **Secure Offline RAG System**
 
 We built a RAG system which runs locally on cpu in an offline mode. It uses open source large language models for performing retrieval augmented generation. 
 
-# Tech Stack  
-- Python
-- Frameworks used and technologies used:Streamlit, langchain, Ollama, huggingface 
-- Vector database used: FAISS (Facebook AI Similarity Search)
-- Reranking models used: BAAI/bge-reranker-base
+## 🚀 **Tech Stack**
+### **Programming Language**
+#### 🐍 Python
+### **Frameworks & Libraries**
+#### 🎨 Streamlit — For building the interactive and intuitive user interface.
+#### 🔗 Langchain — To streamline and optimize the RAG pipeline.
+#### 🧠 Ollama — Efficient, local LLM deployment for high-quality inference.
+#### 🤗 Hugging Face — Powerful models and tools for natural language processing.
+### **Vector Database**
+#### 🔍 FAISS (Facebook AI Similarity Search) — Fast, efficient, and scalable vector search for document retrieval.
+### **Reranking Model**
+#### 🎯 BAAI/bge-reranker-base — Advanced model for reranking results to ensure relevant and accurate information is returned.
 
-# Features  
+## ✨ **Features** 
 
 - Minimum CPU memory and RAM usage
 - Runs locally even in an offline environment (For PDFs and other documents)
@@ -20,11 +27,11 @@ We built a RAG system which runs locally on cpu in an offline mode. It uses open
  - Built with a focus on minimizing memory usage, the system leverages lightweight retrieval techniques such as FAISS (or alternatives like inverted indices) to manage large datasets without consuming excessive memory.
 - Low Latency
 
-# File Structure 
+## 📂 **File Structure**
 ![Screenshot 2024-11-15 150722](https://github.com/user-attachments/assets/ad5bf8bf-634a-477d-aee0-d304026b69ae)
 
 
-# Installation steps : 
+## 🛠️ **Installation Steps**
 
 ### Clone the repository: 
 
