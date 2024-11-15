@@ -67,9 +67,17 @@ Download Ollama app and run it
 ## 📸 **Output Screenshots**
 ![Screenshot 2024-11-15 170214](https://github.com/user-attachments/assets/14558b74-f65b-460f-9ec7-1e16b6bf52b9)
 
+<<<<<<< HEAD
 ![Screenshot 2024-11-15 182035](https://github.com/user-attachments/assets/6d45e6f0-cd23-47c3-87d8-7ea1aaf3de85)
 
 ## 🎥 **Demo Video**
 
 ![](https://github.com/user-attachments/assets/b825dcbd-7965-4ba1-ae37-a6f0fce77aad)
+=======
+### Screenshots
+![image](https://github.com/user-attachments/assets/b355ea9c-dfe4-4250-bf86-fc38c4da655a)
+>>>>>>> 619f097031226a8a1127d40068d411df251e698e
 
+![image](https://github.com/user-attachments/assets/79edc3ce-1f9e-420b-a406-f0860ca52c47)
+
+![image](https://github.com/user-attachments/assets/5a096154-be22-44aa-9501-94e9f3f1a19b)
