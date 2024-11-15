@@ -1,0 +1,6 @@
+langchain
+langchain_community
+PyPDF2
+streamlit
+markdown
+faiss-cpu
