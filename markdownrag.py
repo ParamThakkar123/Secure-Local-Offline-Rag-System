@@ -67,7 +67,8 @@ class MarkdownRAG:
         if not self.vector_store and os.path.exists("faiss_index"):
             self.vector_store = FAISS.load_local(
                 "faiss_index",
-                self.embedding
+                self.embedding,
+                allow_dangerous_deserialization=True
             )
 
         if not self.vector_store:

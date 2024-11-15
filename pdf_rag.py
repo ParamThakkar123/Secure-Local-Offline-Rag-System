@@ -21,7 +21,7 @@ class ChatPDF:
     def __init__(self, llm_model: str = "qwen2:0.5b-instruct-q3_K_S"):
         self.model = ChatOllama(model=llm_model)
         self.text_splitter = RecursiveCharacterTextSplitter(
-            chunk_size=1024, chunk_overlap=100
+            chunk_size=512, chunk_overlap=50
         )
         self.prompt = ChatPromptTemplate(
             [
@@ -56,7 +56,8 @@ class ChatPDF:
         if not self.vector_store and os.path.exists("faiss_index"):
             self.vector_store = FAISS.load_local(
                 "faiss_index",
-                self.embedding
+                self.embedding,
+                allow_dangerous_deserialization=True
             )
 
         if not self.vector_store:
