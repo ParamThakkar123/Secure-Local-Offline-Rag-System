@@ -26,6 +26,8 @@ We built a RAG system which runs locally on cpu in an offline mode. It uses open
 - Add new documents to the system without the need for a complete reindexing process, ensuring dynamic and flexible integration of new knowledge.
  - Built with a focus on minimizing memory usage, the system leverages lightweight retrieval techniques such as FAISS (or alternatives like inverted indices) to manage large datasets without consuming excessive memory.
 - Low Latency
+- Total Memory usage: 338 MB (model) + 121 MB (embeddings)
+- Reranking model 1.1GB but loads only when required and loads once.
 
 ## 📂 **File Structure**
 ![Screenshot 2024-11-15 150722](https://github.com/user-attachments/assets/ad5bf8bf-634a-477d-aee0-d304026b69ae)
