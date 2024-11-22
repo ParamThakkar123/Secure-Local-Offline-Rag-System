@@ -29,6 +29,9 @@ We built a RAG system which runs locally on cpu in an offline mode. It uses open
 - Total Memory usage: 338 MB (model) + 121 MB (embeddings)
 - Reranking model 1.1GB but loads only when required and loads once.
 
+### Hardware requirements
+Nvidia GPUs with compute capability 5.0+ because it uses ollama and ollama supports this GPU capability
+
 ## 📂 **File Structure**
 ![Screenshot 2024-11-15 150722](https://github.com/user-attachments/assets/ad5bf8bf-634a-477d-aee0-d304026b69ae)
 
@@ -55,9 +58,6 @@ Download Ollama app and run it
 > ollama pull qwen2:0.5b-instruct-q3_K_S
 > ollama pull nextfire/paraphrase-multilingual-minilm:l12-v2
 ```
-
-### Hardware requirements
-Nvidia GPUs with compute capability 5.0+ because it uses ollama and ollama supports this GPU capability
 
 ### Run the app.py using the following command in the command line
 ```Python
