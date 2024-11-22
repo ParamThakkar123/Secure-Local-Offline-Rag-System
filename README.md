@@ -56,6 +56,8 @@ Download Ollama app and run it
 > ollama pull nextfire/paraphrase-multilingual-minilm:l12-v2
 ```
 
+### Hardware requirements
+Nvidia GPUs with compute capability 5.0+ because it uses ollama and ollama supports this GPU capability
 
 ### Run the app.py using the following command in the command line
 ```Python
